@@ -1,13 +1,107 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background: rgb(250, 224, 224);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a {
+  color: #fff;
+  text-decoration: none;
 }
+
+.field {
+  width: 200px;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.card {
+  width: 200px;
+}
+
+.card-title {
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.card-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
+  width: 90%;
+  max-width: 1400px;
+  gap: 30px;
+}
+
+.type {
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 500;
+  padding: 2px;
+  border-radius: 2px;
+  margin: 0 2px;
+}
+
+.normal {
+  background: #A8A77A;
+}
+.fire {
+  background: #EE8130;
+}
+.water {
+  background: #6390F0;
+}
+.electric {
+  background: #F7D02C;
+}
+.grass {
+  background: #7AC74C;
+}
+.ice {
+  background: #96D9D6;
+}
+.fighting {
+  background: #C22E28;
+}
+.poison {
+  background: #A33EA1;
+}
+.ground {
+  background: #E2BF65;
+}
+.flying {
+  background: #A98FF3;
+}
+.psychic {
+  background: #F95587;
+}
+.bug {
+  background: #A6B91A;
+}
+.rock {
+  background: #B6A136;
+}
+.ghost {
+  background: #735797;
+}
+.dragon {
+  background: #6F35FC;
+}
+.dark {
+  background: #705746;
+}
+.steel {
+  background: #B7B7CE;
+}
+.fairy {
+  background: #D685AD;
+}
+
